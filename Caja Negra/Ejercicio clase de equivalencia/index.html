@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Dirección postal</title>
+    <script src="direccion_correcta.js"></script>
+    
+  </head>
+    
+ <body>
+
+<h3>DIRECCIÓN</h3>
+<form action="dir_correcta.html" method="get" onsubmit="return validacion()">
+
+<p>Dirección: <input type="text" name="direccion" id="direccion" maxlength="50" /> <span id="errorDireccion" style="display:none;color:red"></span> </p>
+<p>Código Postal: <input type="text" name="cp" id="cp" maxlength="50" /> <span id="errorCP" style="display:none;color:red"></span> </p>
+
+<p>
+<input type="submit" id="enviar" value="Enviar" />
+</p>
+</form>
+
+</body>
+</html>
